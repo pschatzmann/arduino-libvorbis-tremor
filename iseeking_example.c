@@ -15,6 +15,7 @@
  last mod: $Id$
 
  ********************************************************************/
+#ifndef ARDUINO
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -251,15 +252,4 @@ int main(){
   return 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+#endif

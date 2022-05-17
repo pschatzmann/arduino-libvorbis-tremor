@@ -15,6 +15,8 @@
 
  ********************************************************************/
 
+#ifndef ARDUINO
+
 /* Takes a vorbis bitstream from stdin and writes raw stereo PCM to
    stdout using vorbisfile. Using vorbisfile is much simpler than
    dealing with libvorbis. */
@@ -89,3 +91,5 @@ int main(){
   fprintf(stderr,"Done.\n");
   return(0);
 }
+
+#endif
