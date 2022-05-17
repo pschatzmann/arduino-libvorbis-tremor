@@ -21,14 +21,14 @@ You can download the library as zip and call include Library -> zip library. Or 
 
 ```
 cd  ~/Documents/Arduino/libraries
-git clone pschatzmann/arduino-libvorbisidec.git
+git clone pschatzmann/arduino-libvorbis-idec.git
 ```
 
 I recommend to use git because you can easily update to the latest version just by executing the ```git pull``` command in the project folder.
 
 ### Documentation
 
-Detailed Tremor API Documentation can be found at [doc/index.html](https://pschatzmann.github.io/arduino-libvorbisidec/doc/index.html)
+Detailed Tremor API Documentation can be found at [doc/index.html](https://pschatzmann.github.io/arduino-libvorbis-idec/doc/index.html)
 
 
 ### Original Source Code
