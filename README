@@ -40,7 +40,7 @@ ivorbisfile_example.c, can be built with 'make example'.
 
                            ********
 
-Detailed Tremor API Documentation begins at doc/index.html
+Detailed Tremor API Documentation begins at [doc/index.html](doc/index.html)
 
 Monty
 xiph.org
