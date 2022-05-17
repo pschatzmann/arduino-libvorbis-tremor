@@ -29,3 +29,8 @@ I recommend to use git because you can easily update to the latest version just 
 ### Documentation
 
 Detailed Tremor API Documentation can be found at [doc/index.html](https://pschatzmann.github.io/arduino-libvorbisidec/doc/index.html)
+
+
+### Original Source Code
+
+The original source code can be found at https://gitlab.xiph.org/xiph/tremor
