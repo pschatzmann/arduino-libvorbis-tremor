@@ -15,6 +15,10 @@ Vorbis I file or stream.
 
 Further information can be found in the [original README](/README).
 
+### Dependencies
+
+This decoder is dependend on LibOgg, which is part of [arduino-libopus](https://github.com/pschatzmann/arduino-libopus)
+
 ### Installation in Arduino
 
 You can download the library as zip and call include Library -> zip library. Or you can git clone this project into the Arduino libraries folder e.g. with
@@ -22,6 +26,7 @@ You can download the library as zip and call include Library -> zip library. Or 
 ```
 cd  ~/Documents/Arduino/libraries
 git clone pschatzmann/arduino-libvorbis-idec.git
+git clone pschatzmann/arduino-arduino-libopus.git
 ```
 
 I recommend to use git because you can easily update to the latest version just by executing the ```git pull``` command in the project folder.
