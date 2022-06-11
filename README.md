@@ -35,6 +35,8 @@ I recommend to use git because you can easily update to the latest version just 
 
 Detailed Tremor API Documentation can be found at [doc/index.html](https://pschatzmann.github.io/arduino-libvorbis-idec/doc/index.html)
 
+I recommend to use this library together with my [Arduino Audio Tools](https://github.com/pschatzmann/arduino-audio-tools). 
+This is just one of many __codecs__ that I have collected so far: Further details can be found in the [Encoding and Decoding Wiki](https://github.com/pschatzmann/arduino-audio-tools/wiki/Encoding-and-Decoding-of-Audio) of the Audio Tools.
 
 ### Original Source Code
 
