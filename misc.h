@@ -41,6 +41,13 @@
 #include <sys/types.h>
 #endif
 
+#ifndef BYTE_ORDER
+#define BYTE_ORDER __BYTE_ORDER__
+#define LITTLE_ENDIAN __ORDER_LITTLE_ENDIAN__
+#define BIG_ENDIAN __ORDER_BIG_ENDIAN__
+#endif
+
+
 #if BYTE_ORDER==LITTLE_ENDIAN
 union magic {
   struct {
