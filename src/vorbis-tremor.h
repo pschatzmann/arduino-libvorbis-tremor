@@ -1,4 +1,4 @@
 #pragma once
-#include "tremor-lowmem/ogg.h"
-#include "tremor-lowmem/ivorbisfile.h"
-#include "tremor-lowmem/ivorbiscodec.h"
+#include "AudioCodecs/ContainerOgg.h"
+#include "tremor/ivorbisfile.h"
+#include "tremor/ivorbiscodec.h"
