@@ -27,4 +27,4 @@ target_link_libraries(arduino_libvorbis PRIVATE arduino_libopus)
 
 
 # define location for header files
-target_include_directories(arduino_libvorbis PUBLIC ${CMAKE_CURRENT_SOURCE_DIR} )
+target_include_directories(arduino_libvorbis PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src )
