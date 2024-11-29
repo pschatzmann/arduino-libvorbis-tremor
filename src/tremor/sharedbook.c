@@ -219,12 +219,12 @@ ogg_int32_t *_book_unquantize(const static_codebook *b,int n,int *sparsemap,
       for(j=0;j<b->entries;j++){
 	if((sparsemap && b->lengthlist[j]) || !sparsemap){
 	  ogg_int32_t last=0;
-	  int lastpoint=0;
-	  int indexdiv=1;
+	  ogg_int32_t lastpoint=0;
+	  ogg_int32_t indexdiv=1;
 	  for(k=0;k<b->dim;k++){
-	    int index= (j/indexdiv)%quantvals;
-	    int point=0;
-	    int val=VFLOAT_MULTI(delta,delpoint,
+	    ogg_int32_t index= (j/indexdiv)%quantvals;
+	    ogg_int32_t point=0;
+	    ogg_int32_t val=VFLOAT_MULTI(delta,delpoint,
 				 abs(b->quantlist[index]),&point);
 
 	    val=VFLOAT_ADD(mindel,minpoint,val,point,&point);
@@ -254,11 +254,11 @@ ogg_int32_t *_book_unquantize(const static_codebook *b,int n,int *sparsemap,
       for(j=0;j<b->entries;j++){
 	if((sparsemap && b->lengthlist[j]) || !sparsemap){
 	  ogg_int32_t last=0;
-	  int         lastpoint=0;
+	  ogg_int32_t lastpoint=0;
 
 	  for(k=0;k<b->dim;k++){
-	    int point=0;
-	    int val=VFLOAT_MULTI(delta,delpoint,
+	    ogg_int32_t point=0;
+	    ogg_int32_t val=VFLOAT_MULTI(delta,delpoint,
 				 abs(b->quantlist[j*b->dim+k]),&point);
 
 	    val=VFLOAT_ADD(mindel,minpoint,val,point,&point);
