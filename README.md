@@ -27,7 +27,7 @@ You can download the library as zip and call include Library -> zip library. Or 
 ```
 cd  ~/Documents/Arduino/libraries
 git clone https://github.com/pschatzmann/arduino-libvorbis-tremor.git
-git clone https://github.com/pschatzmann/arduino-arduino-libopus.git
+git clone https://github.com/pschatzmann/codec-ogg.git
 ```
 
 I recommend to use git because you can easily update to the latest version just by executing the ```git pull``` command in the project folder.
