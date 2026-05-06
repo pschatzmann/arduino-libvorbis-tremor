@@ -17,7 +17,7 @@ Further information can be found in the [original README](/README).
 
 ### Dependencies
 
-This decoder is dependend on LibOgg, which is part of [arduino-libopus](https://github.com/pschatzmann/arduino-libopus)
+This decoder is dependend on LibOgg, which is part of [codec-ogg](https://github.com/pschatzmann/codec-ogg)
 
 
 ### Installation in Arduino
